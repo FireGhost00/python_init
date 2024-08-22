@@ -9,9 +9,6 @@ parent_directory = os.path.dirname(current_path)
 
 mi_ruta = Path(parent_directory , "Recetas")
 
-#mi_ruta = Path(Path.home(), "Recetas")
-
-
 def contar_recetas(ruta):
     contador = 0
     for txt in Path(ruta).glob("**/*.txt"):
